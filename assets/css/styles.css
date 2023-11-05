@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed {
+	font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+	font-family: 'Merriweather', serif;
+}
+
+.cc-navbar {
+	background-color: rgb(49, 71, 47);
+	font-family: 'Merriweather', serif;
+	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+	z-index: 99;
+}
+
+.cc-navbar .nav-link {
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+	padding-bottom: 20px;
+	border-bottom-color: var(--bs-teal);
+}
+
+.banner,
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner2.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.order-form {
+	height: 500px;
+}
+
+.card-title{
+	font-weight: bolder;
+	font-size: 2.2rem;
+	font-weight: 500;
+	background-color:rgb(49, 71, 47);
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.card-text desc{
+	font-style: italic;
+	border: #4b4b4b;
+	font-size: 16px; 
+    line-height: 1.4; 
+    text-align: left;
+}
+
+}
+.card-text{
+    font-size: 16px; 
+    line-height: 1.4; 
+    text-align: left;
+}
+
+.card-img-top {
+	max-height: 245px; 
+	object-fit: cover;
+   }
+.banner .banner-desc h1 {
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.cc-menu {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/NEW4.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
+}
+
+.btn-order {
+	color: rgb(242, 245, 61);
+	border-color: var(--bs-teal);
+	transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:focus,
+.btn-order:active {
+	color: #fff;
+	background-color: var(--bs-teal);
+}
+.testimonial-heading{
+	margin: 0px;
+	padding: 0px;
+	font-family: poppins;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+	margin: 30px 0px;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.testimonial-heading h1{
+	font-size: 2.2rem;
+	font-weight: 500;
+	background-color: #202020;
+	color: #fff;
+	padding: 10px 20px;
+}
+.testimonial-heading span{
+	font-size: 1.3rem;
+	color: #252525;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+#testimonials{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100;
+}
+
+
+.testimonial-box-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.testimonial-box{
+	width: 500px;
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	padding: 20px;
+	margin: 15px;
+	cursor: pointer;
+}
+
+.profile-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.profile-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+}
+
+.name-user{
+	display: flex;
+	flex-direction: column;
+}
+
+.name-user strong{
+	color: #3d3d3d;
+	font-size: 1.1rem;
+	letter-spacing: 0.5px;
+}
+
+.name-user span{
+	color: #979797;
+	font-size: 0.8rem;
+}
+.reviews{
+	color: #f9d71c;
+}
+.box-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.client-comments p{
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+.testimonial-box:hover{
+	transform: translate(-10px) ;
+	transition: all ease 0.3s;
+}
+#testimonials{
+	background-color:rgb(49, 71, 47);
+}
+
+
+.card-header {
+    background-color: #202020;
+    padding: 10px 0;
+}
+
+.card-header a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.card-header a:hover {
+    color: #f9d71c;
+}
+
+#card-caption h5 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+#card-caption p {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
